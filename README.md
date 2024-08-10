@@ -34,13 +34,13 @@ python --version
 
 ## Getting Started
 
-- Clone the repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/learn-python.git
 ```
 
-- Navigate to the `learn/` directory and start with the first module:
+Navigate to the `learn/` directory and start with the first module:
 
 ```bash
 $ cd learn
@@ -56,6 +56,24 @@ $ python 01_introduction.py
 
 ```bash
 $ python 02_variables_data-types.py
+```
+
+3. Run the script to start the Functions module:
+
+```bash
+$ python 03_functions.py
+```
+
+4. Run the script to start the Flow Control module:
+
+```bash
+$ python 04_flow-control.py
+```
+
+5. Run the script to start the Modules and Packages module:
+
+```bash
+$ python 05_modules-packages.py
 ```
 
 ## References
