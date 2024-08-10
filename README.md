@@ -34,17 +34,28 @@ python --version
 
 ## Getting Started
 
-1. Clone the repository to your local machine:
+- Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/learn-python.git
 ```
 
-2. Navigate to the `learn/` directory and start with the first module:
+- Navigate to the `learn/` directory and start with the first module:
 
 ```bash
 $ cd learn
+```
+
+1. Run the script to start the Introduction to Python module:
+
+```bash
 $ python 01_introduction.py
+```
+
+2. Run the script to start the Variables and Data Types module:
+
+```bash
+$ python 02_variables_data-types.py
 ```
 
 ## References
