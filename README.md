@@ -64,16 +64,10 @@ $ python 03_functions/main.py
 $ python 04_flow-control/main.py
 ```
 
-5. Open, read, and run the `05_classes/main.py` to start the Modules and Packages module:
+5. Open, read, and run the `05_modules-packages/main.py` to start the Modules and Packages module:
 
 ```bash
-$ python 05_classes/main.py
-```
-
-6. Open, read, and run the `06_modules-packages/main.py` to start the Modules and Packages module:
-
-```bash
-$ python 06_modules-packages/main.py
+$ python 05_modules-packages/main.py
 ```
 
 ## References
