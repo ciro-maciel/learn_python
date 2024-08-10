@@ -50,7 +50,9 @@ print("Age:", age)    # Output: Age: 45
 # Lambda functions are small anonymous functions defined using the `lambda` keyword. They are useful for short, throwaway functions.
 
 square = lambda x: x * x
+cube = lambda x: x * x * x
 print("Square of 5:", square(5))  # Output: Square of 5: 25
+print("Cube of 3:", cube(3))      # Output: Cube of 3: 27
 
 # Higher-Order Functions
 # Functions that take other functions as arguments or return functions are called higher-order functions.
@@ -59,30 +61,69 @@ def apply_function(func, value):
     """This function applies a given function to a value."""
     return func(value)
 
-print("Applying square function:", apply_function(square, 6))  # Output: Applying square function: 36
+def add_five(x):
+    """This function adds 5 to the given number."""
+    return x + 5
+
+print("Applying add_five function:", apply_function(add_five, 10))  # Output: Applying add_five function: 15
+
+# Recursive Functions
+# A recursive function is a function that calls itself to solve smaller instances of a problem.
+
+def factorial(n):
+    """This function returns the factorial of a number."""
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print("Factorial of 5:", factorial(5))  # Output: Factorial of 5: 120
+
+# Functions with Variable Arguments
+# You can define functions that accept a variable number of arguments using *args and **kwargs.
+
+def print_arguments(*args):
+    """This function prints all arguments passed to it."""
+    for arg in args:
+        print(arg)
+
+def print_keyword_arguments(**kwargs):
+    """This function prints all keyword arguments passed to it."""
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print("Arguments:")
+print_arguments(1, 2, 3, "hello", "world")
+
+print("\nKeyword Arguments:")
+print_keyword_arguments(name="Alice", age=30, city="New York")
 
 # Practical Exercise
 # Now it's your turn! Try to create a script that:
-# 1. Defines a function that takes a list of numbers and returns the average of those numbers.
-# 2. Define another function that takes a string and returns the string in uppercase.
+# 1. Defines a recursive function to compute the nth Fibonacci number.
+# 2. Defines a function with variable arguments that returns the maximum value from a list of numbers.
 # 3. Use both functions to process user input.
 
-# Tip: You can use the `sum()` function to calculate the sum of a list and the `upper()` method to convert a string to uppercase.
+# Tip: The Fibonacci sequence is defined as: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1. 
+# You can use `max()` to find the maximum value in a list.
 
 # Example:
-def average(numbers):
-    """This function returns the average of a list of numbers."""
-    return sum(numbers) / len(numbers)
+def fibonacci(n):
+    """This function returns the nth Fibonacci number."""
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
-def to_uppercase(text):
-    """This function returns the input string in uppercase."""
-    return text.upper()
+def find_max(*numbers):
+    """This function returns the maximum value from a list of numbers."""
+    return max(numbers)
 
 # Get user input and process it
+n = int(input("Enter a number to find its Fibonacci value: "))
 numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
-text = input("Enter a string: ")
 
-print("Average of numbers:", average(numbers))
-print("Uppercase string:", to_uppercase(text))
+print("Fibonacci number:", fibonacci(n))
+print("Maximum number:", find_max(*numbers))
 
 # Congratulations! You have completed the Functions module in Python!
