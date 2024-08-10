@@ -100,30 +100,26 @@ print_keyword_arguments(name="Alice", age=30, city="New York")
 
 # Practical Exercise
 # Now it's your turn! Try to create a script that:
-# 1. Defines a recursive function to compute the nth Fibonacci number.
-# 2. Defines a function with variable arguments that returns the maximum value from a list of numbers.
+# 1. Defines a function that takes a list of numbers and returns the average of those numbers.
+# 2. Define another function that takes a string and returns the string in uppercase.
 # 3. Use both functions to process user input.
 
-# Tip: The Fibonacci sequence is defined as: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1. 
-# You can use `max()` to find the maximum value in a list.
+# Tip: You can use the `sum()` function to calculate the sum of a list and the `upper()` method to convert a string to uppercase.
 
 # Example:
-def fibonacci(n):
-    """This function returns the nth Fibonacci number."""
-    if n <= 1:
-        return n
-    else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
+def average(numbers):
+    """This function returns the average of a list of numbers."""
+    return sum(numbers) / len(numbers)
 
-def find_max(*numbers):
-    """This function returns the maximum value from a list of numbers."""
-    return max(numbers)
+def to_uppercase(text):
+    """This function returns the input string in uppercase."""
+    return text.upper()
 
 # Get user input and process it
-n = int(input("Enter a number to find its Fibonacci value: "))
 numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+text = input("Enter a string: ")
 
-print("Fibonacci number:", fibonacci(n))
-print("Maximum number:", find_max(*numbers))
+print("Average of numbers:", average(numbers))
+print("Uppercase string:", to_uppercase(text))
 
 # Congratulations! You have completed the Functions module in Python!
