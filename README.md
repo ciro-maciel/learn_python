@@ -40,40 +40,34 @@ Clone the repository to your local machine:
 git clone https://github.com/your-username/learn-python.git
 ```
 
-Navigate to the `learn/` directory and start with the first module:
+1. Open, read, and run the `01_introduction/main.py` to start the Introduction to Python module:
 
 ```bash
-$ cd learn
+$ python 01_introduction/main.py
 ```
 
-1. Run the script to start the Introduction to Python module:
+2. Open, read, and run the `02_introduction/main.py` to start the Variables and Data Types module:
 
 ```bash
-$ python 01_introduction.py
+$ python 02_introduction/main.py
 ```
 
-2. Run the script to start the Variables and Data Types module:
+3. Open, read, and run the `03_functions/main.py` to start the Functions module:
 
 ```bash
-$ python 02_variables_data-types.py
+$ python 03_functions/main.py
 ```
 
-3. Run the script to start the Functions module:
+4. Open, read, and run the `04_flow-control/main.py` to start the Flow Control module:
 
 ```bash
-$ python 03_functions.py
+$ python 04_flow-control/main.py
 ```
 
-4. Run the script to start the Flow Control module:
+5. Open, read, and run the `05_modules-packages/main.py` to start the Modules and Packages module:
 
 ```bash
-$ python 04_flow-control.py
-```
-
-5. Run the script to start the Modules and Packages module:
-
-```bash
-$ python 05_modules-packages.py
+$ python 05_modules-packages/main.py
 ```
 
 ## References
