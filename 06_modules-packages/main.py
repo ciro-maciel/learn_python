@@ -39,9 +39,10 @@ print("Current date and time:", now)
 
 # You can import and use your custom module like this:
 import mymodule
+from mymodule import greet
 
 # Using functions from the custom module
-print(mymodule.greet("Alice"))
+print(greet("Alice"))
 print("Sum:", mymodule.add(5, 7))
 
 # Using classes from the custom module
