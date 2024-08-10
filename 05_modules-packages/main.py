@@ -59,9 +59,7 @@ module2.farewell("Bob")  # Output: Goodbye from module2, Bob!
 from mypackage.module1 import greet
 greet("Charlie")  # Output: Hello from module1, Charlie!
 
-
-
-# 5. Practical Exercise
+# Practical Exercise
 # Now it's your turn! Try to create a script that:
 # 1. Creates a module with at least two functions.
 # 2. Creates a package with at least two modules.
@@ -96,5 +94,6 @@ greet("Charlie")  # Output: Hello from module1, Charlie!
 # print("Cube of 3:", module_a.cube(3))       # Output: Cube of 3: 27
 # print("Double of 5:", module_b.double(5))   # Output: Double of 5: 10
 
+### UNCOMMENT THE CODE ABOVE ###
 
 # Congratulations! You have completed the Modules and Packages module in Python!
