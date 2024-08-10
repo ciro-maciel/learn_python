@@ -1,8 +1,7 @@
-# Learn: Python
 # Module 01: Introduction to Python
 # ----------------------------------------
 
-# Lesson 1: What is Python?
+# 1. What is Python?
 # Python is a high-level programming language widely used for automation, data analysis, web development, and more.
 # Its simplicity and versatility make it one of the most popular languages in the world.
 
@@ -13,7 +12,7 @@ print("Hello, World!")
 
 # This is known as "Hello, World!" - the first program many developers write.
 
-# Lesson 2: Interacting with Python
+# 2. Interacting with Python
 # Python can be executed in various ways:
 # 1. In the terminal/interactive interpreter (REPL).
 # 2. By writing scripts in `.py` files.
@@ -30,7 +29,7 @@ a = 10
 b = 5
 print("Subtraction of a - b:", a - b)
 
-# Lesson 3: Comments and Best Practices
+# 3. Comments and Best Practices
 # Comments are essential to make your code readable and understandable to others (and to yourself in the future).
 # Anything you write after a `#` is ignored by Python.
 
@@ -42,7 +41,7 @@ This is a multi-line comment.
 It is useful for explaining more complex parts of the code or providing extensive documentation.
 """
 
-# Lesson 4: Basic Data Types
+# 4. Basic Data Types
 # In Python, you don't need to explicitly declare the type of a variable.
 # Let's explore some basic data types.
 
@@ -58,7 +57,7 @@ print("Decimal number (float):", decimal)
 text = "Hello, Python!"
 print("String:", text)
 
-# Lesson 5: Practical Exercise
+# 5. Practical Exercise
 # Now it's your turn! Try to create a script that:
 # 1. Asks the user for their name and age.
 # 2. Prints a personalized message with the provided name and age.
@@ -71,4 +70,3 @@ age = input("What is your age? ")
 print("Hello, " + name + "! You are " + age + " years old.")
 
 # Congratulations! You have completed the introduction to Python!
-# In the next modules, we will explore more in-depth how to work with variables, functions, and much more.
