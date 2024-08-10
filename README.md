@@ -10,7 +10,8 @@ This course is divided into modules, each focusing on key aspects of Python:
 2. **Variables and Data Types** - Learn how to store and manipulate data in Python.
 3. **Functions** - Discover how to create reusable blocks of code to make your programs more efficient.
 4. **Flow Control** - Understand how to control the flow of your programs with loops and conditional statements.
-5. **Modules and Packages** - Explore how to organize your code into modules and use Python's extensive library of packages.
+5. **Object-Oriented Programming** - Learn the principles of OOP, including classes, objects, inheritance, and polymorphism, to build robust and scalable applications.
+6. **Modules and Packages** - Explore how to organize your code into modules and use Python's extensive library of packages.
 
 ## How to Use This Repository
 
@@ -64,10 +65,16 @@ $ python 03_functions/main.py
 $ python 04_flow-control/main.py
 ```
 
-5. Open, read, and run the `05_modules-packages/main.py` to start the Modules and Packages module:
+5. Open, read, and run the `05_object-oriented-programming/main.py` to start the Object-Oriented Programming module:
 
 ```bash
-$ python 05_modules-packages/main.py
+$ python 05_object-oriented-programming/main.py
+```
+
+6. Open, read, and run the `06_modules-packages/main.py` to start the Modules and Packages module:
+
+```bash
+$ python 06_modules-packages/main.py
 ```
 
 ## References
