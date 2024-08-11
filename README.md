@@ -15,7 +15,7 @@ This course is divided into modules, each focusing on key aspects of Python:
 
 ## How to Use This Repository
 
-- **Modules**: Each module is stored in a separate Python file within the `learn/` directory. Start with `01_introduction.py` and work your way through the course.
+- **Modules**: Each module is stored in a separate Python file within the `[module]/` directory. Start with `main.py` and work your way through the course.
 - **Exercises**: Each module contains practical exercises to help you apply what you've learned.
 - **Examples**: You'll find plenty of examples that illustrate key concepts and best practices.
 
