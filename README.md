@@ -6,12 +6,12 @@
 
 This course is divided into modules, each focusing on key aspects of Python:
 
-1. **Introduction to Python** - Get started with Python, understand its syntax, and write your first lines of code.
-2. **Variables and Data Types** - Learn how to store and manipulate data in Python.
-3. **Functions** - Discover how to create reusable blocks of code to make your programs more efficient.
-4. **Flow Control** - Understand how to control the flow of your programs with loops and conditional statements.
-5. **Object-Oriented Programming** - Learn the principles of OOP, including classes, objects, inheritance, and polymorphism, to build robust and scalable applications.
-6. **Modules and Packages** - Explore how to organize your code into modules and use Python's extensive library of packages.
+- **Introduction to Python** - Get started with Python, understand its syntax, and write your first lines of code.
+- **Variables and Data Types** - Learn how to store and manipulate data in Python.
+- **Functions** - Discover how to create reusable blocks of code to make your programs more efficient.
+- **Flow Control** - Understand how to control the flow of your programs with loops and conditional statements.
+- **Object-Oriented Programming** - Learn the principles of OOP, including classes, objects, inheritance, and polymorphism, to build robust and scalable applications.
+- **Modules and Packages** - Explore how to organize your code into modules and use Python's extensive library of packages.
 
 ## How to Use This Repository
 
